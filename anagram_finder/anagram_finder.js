@@ -1,9 +1,9 @@
-const AnagramFinder = function (word) {
-
+class AnagramFinder {
+	constructor(word) {
+	}
+	findAnagrams(otherWords) {
+	}
 }
 
-AnagramFinder.prototype.findAnagrams = function (otherWords) {
-
-}
 
 module.exports = AnagramFinder;

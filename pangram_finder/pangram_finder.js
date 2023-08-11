@@ -1,9 +1,10 @@
-const PangramFinder = function (phrase) {
-  this.alphabet = 'qwertyuiopasdfghjklzxcvbnm'.split('');
+class PangramFinder {
+  constructor(phrase) {
+    this.alphabet = 'qwertyuiopasdfghjklzxcvbnm'.split('');
+  }
+  isPangram() {
+  }
 }
 
-PangramFinder.prototype.isPangram = function () {
-
-}
 
 module.exports = PangramFinder;

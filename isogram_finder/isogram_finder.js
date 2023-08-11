@@ -1,9 +1,9 @@
-const IsogramFinder = function (word) {
-
+class IsogramFinder {
+	constructor(word) {
+	}
+	isIsogram() {
+	}
 }
 
-IsogramFinder.prototype.isIsogram = function () {
-
-}
 
 module.exports = IsogramFinder;

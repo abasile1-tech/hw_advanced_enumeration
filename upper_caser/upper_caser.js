@@ -1,8 +1,9 @@
-const UpperCaser = function (words) {
+class UpperCaser {
+	constructor(words) {
+	}
+	toUpperCase() {
+	}
 }
 
-UpperCaser.prototype.toUpperCase = function () {
-
-}
 
 module.exports = UpperCaser;
